@@ -10,6 +10,6 @@ gsap.from('.rectangles', {
     duration: 2,
     stagger: {
         amount: 1,
-        from: "center"
+        from: "random"
     }
 })
