@@ -11,5 +11,6 @@ gsap.from('.rectangles', {
     stagger: {
         amount: 1,
         from: "random"
-    }
-})
+    },
+    scrollTrigger: "#candy"
+});
