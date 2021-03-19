@@ -8,5 +8,8 @@ gsap.from('.rectangles', {
     yPercent: 100,
     ease: "expo.out",
     duration: 2,
-    stagger: 0.1
+    stagger: {
+        amount: 1,
+        from: "center"
+    }
 })
