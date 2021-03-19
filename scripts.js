@@ -4,13 +4,20 @@
 // })
 
 // moves from some values to its existing value
-gsap.from('.rectangles', {
+// gsap.from('.rectangles', {
+//     yPercent: 100,
+//     ease: "expo.out",
+//     duration: 2,
+//     stagger: {
+//         amount: 1,
+//         from: "random"
+//     },
+//     scrollTrigger: "#candy"
+// });
+
+gsap.from('#wobble', {
+    xPercent: 100,
     yPercent: 100,
-    ease: "expo.out",
     duration: 2,
-    stagger: {
-        amount: 1,
-        from: "random"
-    },
     scrollTrigger: "#candy"
 });
