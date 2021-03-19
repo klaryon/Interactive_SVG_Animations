@@ -4,8 +4,8 @@
 // })
 
 // moves from some values to its existing value
-gsap.from('.rectangle', {
-    xPercent: 100,
+gsap.from('.rectangles', {
+    yPercent: 100,
     ease: "expo.out",
     duration: 2
 })
