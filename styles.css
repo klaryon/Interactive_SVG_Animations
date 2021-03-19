@@ -14,6 +14,7 @@ body {
 
 h1 {
   position: fixed;
+  mix-blend-mode: difference;
   z-index: 1;
   top: 60vh;
   margin: 0;
@@ -29,5 +30,5 @@ h1 {
 
 svg {
   margin-top: 200vh;
-  width: 50%;
+  width: 40%;
 }
