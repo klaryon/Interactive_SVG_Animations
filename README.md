@@ -1,5 +1,7 @@
 # Interactive SVG animations with GreenSock
 
+See project at: https://animation-greensock.web.app/
+
 ![alt text](https://github.com/klaryon/interactive_svg_animations/blob/main/assets/mask_greensock.gif?raw=true)
 
 ## Task Description 
